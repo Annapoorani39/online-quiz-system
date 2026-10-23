@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+*.log
+target/
+bin/
+out/
+.idea/
+.vscode/
+
+# Local database files
+quizdb.mv.db
+quizdb.trace.db
+*.mv.db
+*.trace.db
+
+# Compiled Java files
+*.class
+build/
+
+# Generated Tomcat files
+tomcat.8080/
+
+# Local database files
+*.mv.db
+*.trace.db
